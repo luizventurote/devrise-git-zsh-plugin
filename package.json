@@ -1,0 +1,21 @@
+{
+  "name": "devrise-git-zsh-plugin",
+  "version": "1.0.0",
+  "description": "Git ZSH plugin",
+  "scripts": {
+    "postinstall": "DEST=$HOME/.devrise-git.plugin.zsh; mkdir -p $DEST && ln -fs \"$PWD/devrise-git.plugin.zsh\" $DEST/devrise-git.plugin.zsh && echo source $DEST/devrise-git.plugin.zsh >> $HOME/.zshrc && echo \"All done! Please restart your zsh.\n\n\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizventurote/devrise-git-zsh-plugin.git"
+  },
+  "keywords": [
+    "zsh"
+  ],
+  "author": "Luiz Venturote",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizventurote/devrise-git-zsh-plugin/issues"
+  },
+  "homepage": "https://github.com/luizventurote/devrise-git-zsh-plugin#readme"
+}
